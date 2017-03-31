@@ -71,6 +71,7 @@
 		222E425DEBBC56114AD77CE7D961BFE5 /* Pods-MatsushitaSan_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MatsushitaSan_Tests-umbrella.h"; sourceTree = "<group>"; };
 		255015581682CCB61E330DE8A8028F1B /* Pods-MatsushitaSan_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatsushitaSan_Tests-resources.sh"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		324B4B661E8EA4360072BB62 /* omoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omoto.png; sourceTree = "<group>"; };
 		32E4138A016856563BB9A7A2992276B8 /* MatsushitaSan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MatsushitaSan.modulemap; sourceTree = "<group>"; };
 		33B059661506D74FEE10F4C4D1315DA4 /* MatsushitaSan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MatsushitaSan-prefix.pch"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -253,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				324B4B661E8EA4360072BB62 /* omoto.png */,
 				8A7E91D42E72F39719B49D5853C9AC1C /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
