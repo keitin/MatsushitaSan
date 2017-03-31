@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MatsushitaSan'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'MatsushitaSan is the most famous user in the world'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ MatsushitaSan is a the most famous user in the world. MatsushitaSan is a sample 
   s.source_files = 'MatsushitaSan/Classes/**/*'
   
   s.resource_bundles = {
-    'MatsushitaSan' => ['MatsushitaSan/Assets/*.png']
+    'MatsushitaSan' => ['Resources/**/*.{png}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
