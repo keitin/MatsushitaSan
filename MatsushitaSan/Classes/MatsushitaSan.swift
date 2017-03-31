@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public struct MatsushitaSan {
+public class MatsushitaSan {
     
     public var name: String?
     public var firstName: String?
