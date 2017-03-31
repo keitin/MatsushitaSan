@@ -33,7 +33,7 @@ MatsushitaSan is a the most famous user in the world. MatsushitaSan is a sample 
   s.source_files = 'MatsushitaSan/Classes/**/*'
   
   s.resource_bundles = {
-    'MatsushitaSan' => ['Resources/**/*.{png}']
+    'MatsushitaSan' => ['MatsushitaSan/Resources/*.{png}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
