@@ -25,7 +25,7 @@ public class MatsushitaSan {
         self.familuName = "Matsushita"
         self.age = 23
         self.introduction = "Hello I am Matsushita san."
-        self.image = UIimage.bundledImage(named: "omoto")
+        self.image = UIImage.bundledImage(named: "omoto")
         self.work = "Engineer"
     }
 }
