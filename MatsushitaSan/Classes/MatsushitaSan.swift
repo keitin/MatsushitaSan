@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class MatsushitaSan {
+public class MatsushitaSan: NSObject {
     
     public var name: String?
     public var firstName: String?
@@ -19,7 +19,7 @@ public class MatsushitaSan {
     public var image: UIImage?
     public var work: String?
     
-    public init() {
+    public override init() {
         self.name = "Matsushita Keita"
         self.firstName = "Keita"
         self.familuName = "Matsushita"
