@@ -25,12 +25,17 @@ public struct MatsushitaSan {
         self.familuName = "Matsushita"
         self.age = 23
         self.introduction = "Hello I am Matsushita san."
-        
-        let frameworkBundle = Bundle(for: MatsushitaSan.self)
-        let bundleURL = frameworkBundle.resourcecURL?.URLByAppendingPathComponent("MatsushitaSan.bundle")
-        let resourceBundle = Bundle(url: bundleURL!)
-        self.image = UIImage(named: "omoto", in: resourceBundle, compatibleWith: nil)
+        self.image = UIimage.bundledImage(named: "omoto")
         self.work = "Engineer"
     }
-    
+}
+
+extension UIImage {
+    class func bundledImage(named: String) -> UIImage? {
+        let image = UIImage(named: named)
+        if image == nil {
+            return UIImage(named: named, in: Bundle(for: MatsushitaSan.classForCoder()), compatibleWith: nil)
+        }
+        return image
+    }
 }
