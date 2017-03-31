@@ -1,0 +1,6 @@
+framework module MatsushitaSan {
+  umbrella header "MatsushitaSan-umbrella.h"
+
+  export *
+  module * { export * }
+}

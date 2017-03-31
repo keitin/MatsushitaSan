@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MatsushitaSan_Example' do
+  pod 'MatsushitaSan', :path => '../'
+
+  target 'MatsushitaSan_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

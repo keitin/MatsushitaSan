@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.1):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
+  - FBSnapshotTestCase/Core (2.1.1)
+  - FBSnapshotTestCase/SwiftSupport (2.1.1):
+    - FBSnapshotTestCase/Core
+  - MatsushitaSan (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MatsushitaSan (from `../`)
+
+EXTERNAL SOURCES:
+  MatsushitaSan:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
+  MatsushitaSan: 4ef6e2e0d1acb863dbe4a5c83e88344a8dbca2f6
+
+PODFILE CHECKSUM: 7fab2c8eb1477c4002d8e8ef87e23401f8d9ff0d
+
+COCOAPODS: 1.0.0.beta.6
