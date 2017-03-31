@@ -25,7 +25,11 @@ public struct MatsushitaSan {
         self.familuName = "Matsushita"
         self.age = 23
         self.introduction = "Hello I am Matsushita san."
-        self.image = UIImage(named: "omoto")
+        
+        let frameworkBundle = Bundle(for: MatsushitaSan.self)
+        let bundleURL = frameworkBundle.resourcecURL?.URLByAppendingPathComponent("MatsushitaSan.bundle")
+        let resourceBundle = Bundle(url: bundleURL!)
+        self.image = UIImage(named: "omoto", in: resourceBundle, compatibleWith: nil)
         self.work = "Engineer"
     }
     
